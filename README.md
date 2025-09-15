@@ -1,2 +1,7 @@
 # Low-Power-MAC-Unit-PPA
-Designed three pipelined MAC units (including a novel clock-gated architecture) and conducted PPA analysis on a Xilinx Zynq UltraScale+ MPSoC to quantify low-power design trade-offs. Revealed I/O power was 95% of the total, proving core-level clock gating ineffective for overall system power reduction and requiring a full-system power analysis.
+Designed and implemented three distinct pipelined Multiply-Accumulate (MAC) units, including a novel data-aware clock-gated architecture optimized for sparse workloads.
+Conducted a comprehensive Power, Performance, and Area (PPA) analysis on a Xilinx Zynq UltraScale+ MPSoC to quantify the trade-offs of low-power design techniques.
+Discovered that I/O power constituted 95% of total dynamic power, revealing that core-level clock gating yielded negligible system-level power savings for this design and highlighting the importance of a full-system power profile.
+
+### Technologies Used:
+Verilog, Xilinx Vivado, FPGAs, Low-Power Design, PPA Analysis
